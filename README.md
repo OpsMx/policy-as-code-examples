@@ -1,6 +1,8 @@
 # Policy as code examples
 
-This repository contains a collection of sample policies that can used with OpsMx ISD.
+This repository contains a collection of sample policies that can be used with OpsMx ISD.
+
+## Static Policy and Runtime Policy
 
 Static policy lets users validate conditions before the start of execution, whereas Runtime policy enables users for automated decision making during execution. 
 
