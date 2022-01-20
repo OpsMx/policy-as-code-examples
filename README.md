@@ -2,6 +2,8 @@
 
 This repository contains a collection of sample policies that can used with OpsMx ISD.
 
+Static policy lets users validate conditions before the start of execution, whereas Runtime policy enables users for automated decision making during execution. 
+
 To know more about usage of policies visit [Continuous Compliance using OpsMx ISD](https://www.opsmx.com/autopilot-overview/continuous-compliance/)
 
 For detailed documentation visit [Policy Management Overview](https://docs.opsmx.com/data-and-intelligence-module-autopilot/continuous-compliance-policy)
