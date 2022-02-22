@@ -19,3 +19,6 @@ To know more about OPA visit https://www.openpolicyagent.org/
 
 Rego language documentation is available here https://www.openpolicyagent.org/docs/latest/policy-language/
 
+## Community contributions
+We welcome contributions from the community! Feel free to raise a pull request for new policy additions and changes.
+
