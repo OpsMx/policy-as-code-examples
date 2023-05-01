@@ -6,11 +6,11 @@ package opsmx.spinnaker.authorization
 
 deny["Permissions must be specified"] {
    not(appHasWritePermissions)
-   input.new.job[_].type=="updateApp"
+   input.app.job[_].type=="updateApp"
  }{
    not(appHasWritePermissions)
-   input.new.job[_].type=="createApp"
+   input.app.job[_].type=="createApp"
 }
 appHasWritePermissions {
-  count(input.new.job[0].application.permissions.WRITE) > 0
+  count(input.app.job[0].application.permissions.WRITE) > 0
 }
