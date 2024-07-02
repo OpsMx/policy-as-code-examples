@@ -1,4 +1,4 @@
-# Unauthorized users are not allowed to create, update and delete a spinnaker application.
+# Unauthorized users should not be able to create or update or delete spinnaker applications.
 # Authorised user groups should be saved in "allowed_user_groups" array
 
 package opsmx.spinnaker.authorization
